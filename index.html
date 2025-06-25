@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Charan Teja kURAKULA | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1>Charan Teja</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="resume.pdf" download class="resume-btn">Resume</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" data-aos="fade-in">
+    <h2>Hi, I'm Charan 👋</h2>
+    <p>Masters Student in Data Analytics Engineering | AI, ML, Cloud</p>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>
+      I'm a master's student at George Mason University with a GPA of 4.0, skilled in Python, SQL, and R.
+      I’ve built AI/ML systems and cloud-based data solutions. I love solving real-world problems with data.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section" data-aos="zoom-in">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"><p>Python</p></div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg"><p>SQL</p></div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg"><p>R</p></div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aws/aws-original.svg"><p>AWS</p></div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"><p>TensorFlow</p></div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"><p>React</p></div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section" data-aos="fade-up">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>PDF RAG Chatbot</h3>
+      <p>Chatbot using FastAPI, LangChain, and GPT-4o for document-based Q&A.</p>
+      <video controls width="320">
+        <source src="Project ReadME.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="project">
+      <h3>Credit Score Prediction</h3>
+      <p>Real-time credit prediction with SHAP, LIME and fairness analysis.</p>
+    </div>
+
+    <div class="project">
+      <h3>Insurance Complaint Handling (Big Data)</h3>
+      <p>Used PySpark to classify and analyze large-scale complaint data.</p>
+    </div>
+
+    <div class="project">
+      <h3>Library Management System</h3>
+      <p>Built full SQL schema from ER model; performed real-time queries using real-world data.</p>
+    </div>
+  </section>
+
+     <div class="project">
+       <h3>CABG Surgery Hospital Performance Analysis</h3>
+       <p> Large datasets have been examined using AWS S3, Glue Data Brew, and SQL to determine which areas had the lowest performance and            to impact data-driven health care improvements.</p>
+       <video controls width="320">
+        <source src="ckurakul-finalprojectvideo.mp4" type="video/mp4">
+      </video>
+
+  <!-- Contact -->
+  <section id="contact" class="section" data-aos="fade-up">
+    <h2>Contact</h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="_replyto" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Charan Teja. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
